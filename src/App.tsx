@@ -53,7 +53,7 @@ function App() {
                                                     block3={<Image image={mustang2} alt={'car'}/>}
                                                     block4={<Button title={'Купить'}
                                                                     onclickButtonHandler={onclickButtonPage3Handler}/>}
-                                                    block5={<Button title={'На главную'} onclickButtonHandler={onclickButtonPage1Handler}/>}/>}/>
+                                                    block5={<Button title={'На главную'} onclickButtonHandler={onclickButtonMainHandler}/>}/>}/>
 
 
             </Routes>
