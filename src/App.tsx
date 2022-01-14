@@ -16,11 +16,11 @@ function App() {
     const onclickButtonPage1Handler = () => navigate('/page1')
     const onclickButtonPage2Handler = () => navigate('/page2')
     const onclickButtonPage3Handler = () => navigate('/page3')
-    const onclickButtonMainHandler = () => navigate('/Miekke-test')
+    const onclickButtonMainHandler = () => navigate('/Miekke-test/')
     return (
         <div className="App">
             <Routes>
-                <Route path="/Miekke-test" element={<Main block1={<Image image={mustang} alt={'car'}/>}
+                <Route path="/Miekke-test/" element={<Main block1={<Image image={mustang} alt={'car'}/>}
                                                block2={<Description title={'Символ Америки. Ford Mustang'}
                                                                     text={'Высокий капот со скругленной кромкой, сглаженные формы без острых углов и граней — все в новом Ford Mustang подчинено современным требованиям по защите пешеходов, в том числе и европейским. Теперь Mustang будет продаваться не только в США, но и в Старом Свете. Презентацию нового маслкара Ford устроил в самом сердце Европы — для знакомства с одним из главных символов Америки мы прилетели в Мюнхен.'}/>}
                                                block3={<Button title={'Читать далее'}
